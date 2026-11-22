@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Rojo: Serve Lobby (Default)",
+      "type": "shell",
+      "command": "rojo serve default.project.json",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Rojo: Serve Campaign",
+      "type": "shell",
+      "command": "rojo serve campaign.project.json",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Rojo: Serve Multiplayer",
+      "type": "shell",
+      "command": "rojo serve multiplayer.project.json",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Rojo: Serve Zombies",
+      "type": "shell",
+      "command": "rojo serve zombies.project.json",
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

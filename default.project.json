@@ -1,84 +1,30 @@
 {
-  "name": "BLACKSITE",
-  "globIgnorePaths": [
-    "**/*.spec.lua",
-    "**/*.spec.luau",
-    "**/__tests__/**"
-  ],
+  "name": "Blacksite1-Lobby",
+  "globIgnorePaths": ["**/*.spec.lua", "**/*.spec.luau", "**/__tests__/**"],
   "tree": {
     "$className": "DataModel",
-
-    "ReplicatedFirst": {
-      "$className": "ReplicatedFirst",
-      "$path": "src/ReplicatedFirst"
-    },
-
+    "ReplicatedFirst": { "$className": "ReplicatedFirst", "$path": "src/Lobby/ReplicatedFirst" },
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
-      "$path": "src/ReplicatedStorage",
-      "Packages": {
-        "$path": "Packages"
-      }
+      "$path": "src/Lobby/ReplicatedStorage",
+      "GunSystem": { "$path": "src/GunSystem" }
     },
-
-    "ServerScriptService": {
-      "$className": "ServerScriptService",
-      "$path": "src/ServerScriptService",
-      "ServerPackages": {
-        "$path": "ServerPackages"
-      }
-    },
-
-    "ServerStorage": {
-      "$className": "ServerStorage",
-      "$path": "src/ServerStorage"
-    },
-
-    "StarterGui": {
-      "$className": "StarterGui",
-      "$path": "src/StarterGui"
-    },
-
-    "StarterPack": {
-      "$className": "StarterPack",
-      "$path": "src/StarterPack"
-    },
-
+    "ServerScriptService": { "$className": "ServerScriptService", "$path": "src/Lobby/ServerScriptService" },
+    "ServerStorage": { "$className": "ServerStorage", "$path": "src/Lobby/ServerStorage" },
+    "StarterGui": { "$className": "StarterGui", "$path": "src/Lobby/StarterGui" },
+    "StarterPack": { "$className": "StarterPack", "$path": "src/Lobby/StarterPack" },
     "StarterPlayer": {
       "$className": "StarterPlayer",
-      "StarterPlayerScripts": {
-        "$className": "StarterPlayerScripts",
-        "$path": "src/StarterPlayer/StarterPlayerScripts"
-      },
-      "StarterCharacterScripts": {
-        "$className": "StarterCharacterScripts",
-        "$path": "src/StarterPlayer/StarterCharacterScripts"
-      }
+      "StarterPlayerScripts": { "$className": "StarterPlayerScripts", "$path": "src/Lobby/StarterPlayer/StarterPlayerScripts" },
+      "StarterCharacterScripts": { "$className": "StarterCharacterScripts", "$path": "src/Lobby/StarterPlayer/StarterCharacterScripts" }
     },
-
     "Workspace": {
       "$className": "Workspace",
-      "$properties": {
-        "FilteringEnabled": true
-      },
-      "Scripts": {
-        "$path": "src/Workspace"
-      }
+      "$properties": { "FilteringEnabled": true },
+      "Scripts": { "$path": "src/Lobby/Workspace" }
     },
-
-    "Lighting": {
-      "$className": "Lighting",
-      "$path": "src/Lighting"
-    },
-
-    "SoundService": {
-      "$className": "SoundService",
-      "$path": "src/SoundService"
-    },
-
-    "TextChatService": {
-      "$className": "TextChatService",
-      "$path": "src/TextChatService"
-    }
+    "Lighting": { "$className": "Lighting", "$path": "src/Lobby/Lighting" },
+    "SoundService": { "$className": "SoundService", "$path": "src/Lobby/SoundService" },
+    "TextChatService": { "$className": "TextChatService", "$path": "src/Lobby/TextChatService" }
   }
 }

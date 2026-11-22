@@ -1,0 +1,1 @@
+print("[Multiplayer] Character spawned")

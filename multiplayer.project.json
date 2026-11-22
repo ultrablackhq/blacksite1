@@ -1,0 +1,30 @@
+{
+  "name": "Blacksite1-Multiplayer",
+  "globIgnorePaths": ["**/*.spec.lua", "**/*.spec.luau", "**/__tests__/**"],
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": { "$className": "ReplicatedFirst", "$path": "src/Multiplayer/ReplicatedFirst" },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/Multiplayer/ReplicatedStorage",
+      "GunSystem": { "$path": "src/GunSystem" }
+    },
+    "ServerScriptService": { "$className": "ServerScriptService", "$path": "src/Multiplayer/ServerScriptService" },
+    "ServerStorage": { "$className": "ServerStorage", "$path": "src/Multiplayer/ServerStorage" },
+    "StarterGui": { "$className": "StarterGui", "$path": "src/Multiplayer/StarterGui" },
+    "StarterPack": { "$className": "StarterPack", "$path": "src/Multiplayer/StarterPack" },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": { "$className": "StarterPlayerScripts", "$path": "src/Multiplayer/StarterPlayer/StarterPlayerScripts" },
+      "StarterCharacterScripts": { "$className": "StarterCharacterScripts", "$path": "src/Multiplayer/StarterPlayer/StarterCharacterScripts" }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": { "FilteringEnabled": true },
+      "Scripts": { "$path": "src/Multiplayer/Workspace" }
+    },
+    "Lighting": { "$className": "Lighting", "$path": "src/Multiplayer/Lighting" },
+    "SoundService": { "$className": "SoundService", "$path": "src/Multiplayer/SoundService" },
+    "TextChatService": { "$className": "TextChatService", "$path": "src/Multiplayer/TextChatService" }
+  }
+}

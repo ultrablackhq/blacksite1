@@ -1,0 +1,1 @@
+print("[Campaign] Character spawned")

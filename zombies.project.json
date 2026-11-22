@@ -1,0 +1,30 @@
+{
+  "name": "Blacksite1-Zombies",
+  "globIgnorePaths": ["**/*.spec.lua", "**/*.spec.luau", "**/__tests__/**"],
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": { "$className": "ReplicatedFirst", "$path": "src/Zombies/ReplicatedFirst" },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/Zombies/ReplicatedStorage",
+      "GunSystem": { "$path": "src/GunSystem" }
+    },
+    "ServerScriptService": { "$className": "ServerScriptService", "$path": "src/Zombies/ServerScriptService" },
+    "ServerStorage": { "$className": "ServerStorage", "$path": "src/Zombies/ServerStorage" },
+    "StarterGui": { "$className": "StarterGui", "$path": "src/Zombies/StarterGui" },
+    "StarterPack": { "$className": "StarterPack", "$path": "src/Zombies/StarterPack" },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": { "$className": "StarterPlayerScripts", "$path": "src/Zombies/StarterPlayer/StarterPlayerScripts" },
+      "StarterCharacterScripts": { "$className": "StarterCharacterScripts", "$path": "src/Zombies/StarterPlayer/StarterCharacterScripts" }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": { "FilteringEnabled": true },
+      "Scripts": { "$path": "src/Zombies/Workspace" }
+    },
+    "Lighting": { "$className": "Lighting", "$path": "src/Zombies/Lighting" },
+    "SoundService": { "$className": "SoundService", "$path": "src/Zombies/SoundService" },
+    "TextChatService": { "$className": "TextChatService", "$path": "src/Zombies/TextChatService" }
+  }
+}

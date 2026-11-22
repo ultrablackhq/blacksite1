@@ -1,0 +1,3 @@
+local GunSystem = {}
+
+return GunSystem

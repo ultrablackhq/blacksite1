@@ -1,0 +1,1 @@
+print("[Lobby] Character spawned")

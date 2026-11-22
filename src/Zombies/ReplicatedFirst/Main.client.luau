@@ -1,0 +1,1 @@
+print("[Zombies] ReplicatedFirst loaded")

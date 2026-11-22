@@ -1,0 +1,30 @@
+{
+  "name": "Blacksite1-Campaign",
+  "globIgnorePaths": ["**/*.spec.lua", "**/*.spec.luau", "**/__tests__/**"],
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": { "$className": "ReplicatedFirst", "$path": "src/Campaign/ReplicatedFirst" },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/Campaign/ReplicatedStorage",
+      "GunSystem": { "$path": "src/GunSystem" }
+    },
+    "ServerScriptService": { "$className": "ServerScriptService", "$path": "src/Campaign/ServerScriptService" },
+    "ServerStorage": { "$className": "ServerStorage", "$path": "src/Campaign/ServerStorage" },
+    "StarterGui": { "$className": "StarterGui", "$path": "src/Campaign/StarterGui" },
+    "StarterPack": { "$className": "StarterPack", "$path": "src/Campaign/StarterPack" },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": { "$className": "StarterPlayerScripts", "$path": "src/Campaign/StarterPlayer/StarterPlayerScripts" },
+      "StarterCharacterScripts": { "$className": "StarterCharacterScripts", "$path": "src/Campaign/StarterPlayer/StarterCharacterScripts" }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": { "FilteringEnabled": true },
+      "Scripts": { "$path": "src/Campaign/Workspace" }
+    },
+    "Lighting": { "$className": "Lighting", "$path": "src/Campaign/Lighting" },
+    "SoundService": { "$className": "SoundService", "$path": "src/Campaign/SoundService" },
+    "TextChatService": { "$className": "TextChatService", "$path": "src/Campaign/TextChatService" }
+  }
+}
