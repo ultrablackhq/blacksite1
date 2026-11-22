@@ -286,7 +286,7 @@ function DialogueUIController.PlayBark(category: string, emitterPart: BasePart?)
 		sound3D.Ended:Once(function()
 			sound3D:Destroy()
 		end)
-	end
+	endf
 
 	-- Show subtle subtitle only if no critical scripted scene line is currently active
 	if not activeLine then
